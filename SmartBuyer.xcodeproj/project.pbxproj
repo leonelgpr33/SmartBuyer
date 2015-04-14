@@ -68,6 +68,10 @@
 		B9D9981C1ACDB1AE00C9FB38 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D9981B1ACDB1AE00C9FB38 /* appicon.png */; };
 		B9D9981F1ACDFF8C00C9FB38 /* celdaLugar.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D9981E1ACDFF8C00C9FB38 /* celdaLugar.m */; };
 		B9D998221ACE15E900C9FB38 /* pendienteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D998211ACE15E900C9FB38 /* pendienteCell.m */; };
+		F223FBCE1ADCB3BE00A46E10 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223FBCA1ADCB3BE00A46E10 /* ParseCrashReporting.framework */; };
+		F223FBCF1ADCB3BE00A46E10 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223FBCB1ADCB3BE00A46E10 /* ParseFacebookUtils.framework */; };
+		F223FBD01ADCB3BE00A46E10 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223FBCC1ADCB3BE00A46E10 /* ParseFacebookUtilsV4.framework */; };
+		F223FBD11ADCB3BE00A46E10 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223FBCD1ADCB3BE00A46E10 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +168,10 @@
 		B9D9981E1ACDFF8C00C9FB38 /* celdaLugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = celdaLugar.m; sourceTree = "<group>"; };
 		B9D998201ACE15E900C9FB38 /* pendienteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pendienteCell.h; sourceTree = "<group>"; };
 		B9D998211ACE15E900C9FB38 /* pendienteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pendienteCell.m; sourceTree = "<group>"; };
+		F223FBCA1ADCB3BE00A46E10 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		F223FBCB1ADCB3BE00A46E10 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		F223FBCC1ADCB3BE00A46E10 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		F223FBCD1ADCB3BE00A46E10 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,14 +189,18 @@
 				B922C7211ACCE9DB009B1962 /* CoreLocation.framework in Frameworks */,
 				B922C71F1ACCE9CE009B1962 /* CoreGraphics.framework in Frameworks */,
 				B922C71D1ACCE9C0009B1962 /* CFNetwork.framework in Frameworks */,
+				F223FBD01ADCB3BE00A46E10 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				B922C71B1ACCE9AE009B1962 /* AudioToolbox.framework in Frameworks */,
+				F223FBCE1ADCB3BE00A46E10 /* ParseCrashReporting.framework in Frameworks */,
 				B922C7141ACCE970009B1962 /* Bolts.framework in Frameworks */,
 				B922C7161ACCE970009B1962 /* ParseCrashReporting.framework in Frameworks */,
+				F223FBCF1ADCB3BE00A46E10 /* ParseFacebookUtils.framework in Frameworks */,
 				B922C7181ACCE970009B1962 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				B922C7171ACCE970009B1962 /* ParseFacebookUtils.framework in Frameworks */,
 				B998BE661AC8CC63000CD1C6 /* FBSDKLoginKit.framework in Frameworks */,
 				B922C7151ACCE970009B1962 /* Parse.framework in Frameworks */,
 				B922C7191ACCE970009B1962 /* ParseUI.framework in Frameworks */,
+				F223FBD11ADCB3BE00A46E10 /* ParseUI.framework in Frameworks */,
 				B998BE651AC8CC63000CD1C6 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +288,10 @@
 				B922C70E1ACCE970009B1962 /* Bolts.framework */,
 				B922C70F1ACCE970009B1962 /* Parse.framework */,
 				B922C7101ACCE970009B1962 /* ParseCrashReporting.framework */,
+				F223FBCA1ADCB3BE00A46E10 /* ParseCrashReporting.framework */,
+				F223FBCB1ADCB3BE00A46E10 /* ParseFacebookUtils.framework */,
+				F223FBCC1ADCB3BE00A46E10 /* ParseFacebookUtilsV4.framework */,
+				F223FBCD1ADCB3BE00A46E10 /* ParseUI.framework */,
 				B922C7111ACCE970009B1962 /* ParseFacebookUtils.framework */,
 				B922C7121ACCE970009B1962 /* ParseFacebookUtilsV4.framework */,
 				B922C7131ACCE970009B1962 /* ParseUI.framework */,
